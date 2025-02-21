@@ -13,8 +13,6 @@ public class RendezVousBusiness {
     public RendezVousBusiness() {
       listeRendezVous = new ArrayList<>();
     }
-
-
     public boolean addRendezVous(RendezVous rendezVous){
 
         int refLogement=rendezVous.getLogement().getReference();
